@@ -20,6 +20,29 @@ android {
         minSdkVersion 7
         targetSdkVersion 16
     }
+
+    signingConfigs {
+        release {
+            keyAlias "medicine reminder"
+            //storeFile = file(keystoreFile)
+            //storePassword = keystorePassword
+            //keyPassword = keyPass
+        }
+    }
+
+    buildTypes {
+        debug {
+            packageNameSuffix ".debug"
+            versionNameSuffix ".01"
+        }
+
+        release {
+            runProguard true
+            proguardFile getDefaultProguardFile('proguard-android-optimize.txt')
+            signingConfig signingConfigs.release
+            zipAlign true
+        }
+    }
 }
 
 dependencies {
