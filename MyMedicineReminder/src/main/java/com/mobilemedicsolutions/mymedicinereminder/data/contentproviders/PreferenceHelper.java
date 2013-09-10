@@ -33,4 +33,18 @@ public class PreferenceHelper {
         PreferenceManager.getDefaultSharedPreferences(mContext).edit()
                 .putBoolean(property, value).apply();
     }
+
+    public int getInt(String property) {
+        return getInt(property,0);
+    }
+
+    public int getInt(String property, int defaultValue) {
+        return PreferenceManager.getDefaultSharedPreferences(mContext)
+                .getInt(property,defaultValue);
+    }
+
+    public void setInt(String property, int value) {
+        PreferenceManager.getDefaultSharedPreferences(mContext).edit()
+                .putInt(property, value).apply();
+    }
 }

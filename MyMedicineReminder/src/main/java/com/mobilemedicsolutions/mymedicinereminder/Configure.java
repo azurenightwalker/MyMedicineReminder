@@ -1,5 +1,6 @@
 package com.mobilemedicsolutions.mymedicinereminder;
 
+import android.app.ActionBar;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
@@ -7,6 +8,10 @@ import android.view.MenuItem;
 import android.support.v4.app.NavUtils;
 import android.annotation.TargetApi;
 import android.os.Build;
+import android.view.View;
+import android.widget.Spinner;
+
+import com.mobilemedicsolutions.mymedicinereminder.data.contentproviders.PreferenceHelper;
 
 public class Configure extends Activity {
 
@@ -24,7 +29,9 @@ public class Configure extends Activity {
     @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     private void setupActionBar() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
-        getActionBar().setDisplayHomeAsUpEnabled(true);
+            ActionBar ab = getActionBar();
+            if (ab != null)
+                ab.setDisplayHomeAsUpEnabled(true);
         }
     }
 
@@ -53,4 +60,11 @@ public class Configure extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
+    public void savePreferences(@SuppressWarnings("UnusedParameters") View view) {
+        PreferenceHelper preferenceHelper = PreferenceHelper.getInstance();
+        preferenceHelper.setInt("Gender",
+                ((Spinner) findViewById(R.id.gender)).getSelectedItemPosition());
+        preferenceHelper.setInt("Complexity",
+                ((Spinner) findViewById(R.id.complexity)).getSelectedItemPosition());
+    }
 }
