@@ -66,5 +66,8 @@ public class Configure extends Activity {
                 ((Spinner) findViewById(R.id.gender)).getSelectedItemPosition());
         preferenceHelper.setInt("Complexity",
                 ((Spinner) findViewById(R.id.complexity)).getSelectedItemPosition());
+        this.setResult(Activity.RESULT_OK);
+        this.finishActivity(Dashboard.CONFIGURE_REQUEST);
+        this.finish();
     }
 }

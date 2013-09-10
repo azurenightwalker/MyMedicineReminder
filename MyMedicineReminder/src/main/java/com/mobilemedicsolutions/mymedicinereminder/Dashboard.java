@@ -3,8 +3,9 @@ package com.mobilemedicsolutions.mymedicinereminder;
 import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
-import android.preference.PreferenceManager;
 import android.view.Menu;
+import android.view.View;
+import android.widget.Toast;
 
 import com.mobilemedicsolutions.mymedicinereminder.data.contentproviders.PreferenceHelper;
 
@@ -20,7 +21,7 @@ public class Dashboard extends Activity {
     }
 
     private void initializeApp() {
-        if (PreferenceHelper.getInstance().getBoolean("FirstRun"))
+        if (!PreferenceHelper.getInstance().getBoolean("FirstRun",false))
         {
             startActivityForResult(new Intent(Dashboard.this,Configure.class), CONFIGURE_REQUEST);
         }
@@ -45,6 +46,31 @@ public class Dashboard extends Activity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.dashboard, menu);
         return true;
+    }
+
+    public void takenMedicine(View v)
+    {
+
+    }
+
+    public void addNewMedicine(View v)
+    {
+
+    }
+
+    public void allMedicines(View v)
+    {
+
+    }
+
+    public void todayMedicines(View v)
+    {
+
+    }
+
+    public void configure(View v)
+    {
+
     }
     
 }

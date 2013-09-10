@@ -2,3 +2,6 @@
 ext.keystoreFile = ""
 ext.keystorePath = ""
 ext.keyPass = ""
+
+System.setProperty('http.proxyHost', 'www-cache.leeds.ac.uk')
+System.setProperty('http.proxyPort', '3128')
