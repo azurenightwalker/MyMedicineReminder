@@ -1,24 +1,19 @@
 package com.mobilemedicsolutions.mymedicinereminder;
 
-import android.app.ActionBar;
-import android.os.Bundle;
-import android.app.Activity;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.support.v4.app.NavUtils;
 import android.annotation.TargetApi;
+import android.app.ActionBar;
+import android.app.Activity;
 import android.os.Build;
-import android.view.View;
-import android.widget.Spinner;
+import android.os.Bundle;
+import android.support.v4.app.NavUtils;
+import android.view.MenuItem;
 
-import com.mobilemedicsolutions.mymedicinereminder.data.contentproviders.PreferenceHelper;
-
-public class Configure extends Activity {
+public class TakenMedicine extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_configure);
+        setContentView(R.layout.activity_taken_medicine);
         // Show the Up button in the action bar.
         setupActionBar();
     }
@@ -36,14 +31,6 @@ public class Configure extends Activity {
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.configure, menu);
-        return true;
-    }
-    
-
-    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case android.R.id.home:
@@ -58,15 +45,5 @@ public class Configure extends Activity {
                 return true;
         }
         return super.onOptionsItemSelected(item);
-    }
-
-    public void savePreferences(@SuppressWarnings("UnusedParameters") View view) {
-        PreferenceHelper preferenceHelper = PreferenceHelper.getInstance();
-        preferenceHelper.setInt("Gender",
-                ((Spinner) findViewById(R.id.gender)).getSelectedItemPosition());
-        preferenceHelper.setInt("Complexity",
-                ((Spinner) findViewById(R.id.complexity)).getSelectedItemPosition());
-        setResult(Activity.RESULT_OK);
-        finish();
     }
 }

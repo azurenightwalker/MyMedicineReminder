@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="7"
-        android:targetSdkVersion="16" />
+        android:targetSdkVersion="18" />
 
     <application
         android:name=".MedicineReminderApplication"
@@ -26,10 +26,34 @@
         <activity
             android:name=".Configure"
             android:label="@string/configure"
-            android:parentActivityName=".Dashboard" >
+            android:parentActivityName="com.mobilemedicsolutions.mymedicinereminder.Dashboard" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".Dashboard" />
+                android:value="com.mobilemedicsolutions.mymedicinereminder.Dashboard" />
+        </activity>
+        <activity
+            android:name=".TakenMedicine"
+            android:label="@string/takenMedicine"
+            android:parentActivityName="com.mobilemedicsolutions.mymedicinereminder.Dashboard" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mobilemedicsolutions.mymedicinereminder.Dashboard" />
+        </activity>
+        <activity
+            android:name=".NewMedicine"
+            android:label="@string/newMedicine"
+            android:parentActivityName="com.mobilemedicsolutions.mymedicinereminder.Dashboard" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mobilemedicsolutions.mymedicinereminder.Dashboard" />
+        </activity>
+        <activity
+            android:name=".MedicineList"
+            android:label="@string/allMedicines"
+            android:parentActivityName="com.mobilemedicsolutions.mymedicinereminder.Dashboard" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mobilemedicsolutions.mymedicinereminder.Dashboard" />
         </activity>
     </application>
 
