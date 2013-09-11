@@ -33,7 +33,6 @@ public class BaseActivity extends Activity {
         }
     }
 
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
