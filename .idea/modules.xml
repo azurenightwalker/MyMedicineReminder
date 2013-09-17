@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyMedicineReminder.iml" filepath="$PROJECT_DIR$/MyMedicineReminder.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyMedicineReminder/MyMedicineReminder-MyMedicineReminder.iml" filepath="$PROJECT_DIR$/MyMedicineReminder/MyMedicineReminder-MyMedicineReminder.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyMedicineReminderProject.iml" filepath="$PROJECT_DIR$/MyMedicineReminderProject.iml" />
     </modules>

@@ -16,13 +16,6 @@ public class Configure extends BaseActivity {
         setContentView(R.layout.activity_configure);
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.configure, menu);
-        return true;
-    }
-
     public void savePreferences(@SuppressWarnings("UnusedParameters") View view) {
         PreferenceHelper preferenceHelper = PreferenceHelper.getInstance();
         preferenceHelper.setInt("Gender",

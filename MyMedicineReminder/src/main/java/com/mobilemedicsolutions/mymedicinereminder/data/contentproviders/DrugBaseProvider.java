@@ -36,6 +36,8 @@ public class DrugBaseProvider extends ContentProvider
     public String getType(Uri uri) {
         switch(uriMatcher.match(uri))
         {
+            case DRUG:
+                return "vnd.android.cursor.dir/vnd.com.mobilemedicsolutions.mymedicinereminder.drug";
             default:
                 return null;
         } // mime type : vnd.android.cursor.dir/vnd.com.example.provider.table1
@@ -44,6 +46,8 @@ public class DrugBaseProvider extends ContentProvider
     public Uri insert(Uri uri, ContentValues contentValues) {
         switch(uriMatcher.match(uri))
         {
+            case DRUG:
+
             default:
                 return null;
         }
