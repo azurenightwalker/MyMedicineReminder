@@ -4,5 +4,5 @@ public class Drug {
     private long _id;
     private String Name;
     private ScheduleType ScheduleType;
-    private String ScheduledDays;
+    private ScheduledDay ScheduledDays;
 }

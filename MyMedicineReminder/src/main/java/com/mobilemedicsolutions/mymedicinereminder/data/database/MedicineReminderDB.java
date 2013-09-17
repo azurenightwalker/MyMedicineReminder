@@ -33,7 +33,7 @@ public class MedicineReminderDB extends SQLiteOpenHelper{
 
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
-
+        sqLiteDatabase.execSQL(DATABASE_CREATE_DRUGS);
     }
 
     @Override
