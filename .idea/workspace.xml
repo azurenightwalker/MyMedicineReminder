@@ -12,8 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db9ea2b0-cd66-4772-8d5a-c6506488166e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/ScheduledDay.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/contentproviders/DrugsContract.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/Drug.java" afterPath="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/Drug.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/contentproviders/DrugBaseProvider.java" afterPath="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/contentproviders/DrugBaseProvider.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/database/MedicineReminderDB.java" afterPath="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/database/MedicineReminderDB.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -121,22 +122,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MedicineList.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/MedicineList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="306">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DrugBaseProvider.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DrugBaseProvider.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/contentproviders/DrugBaseProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="5" selection-start="1870" selection-end="1870" vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="1105">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state line="52" column="67" selection-start="1968" selection-end="1968" vertical-scroll-proportion="0.2967626" vertical-offset="566" max-vertical-offset="2040">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -144,7 +134,7 @@
       <file leaf-file-name="MedicineReminderDB.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/database/MedicineReminderDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="49" selection-start="759" selection-end="759" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="833">
+            <state line="22" column="34" selection-start="969" selection-end="969" vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="714">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,10 +142,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Drug.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DrugsContract.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/contentproviders/DrugsContract.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Drug.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/Drug.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="18" selection-start="119" selection-end="119" vertical-scroll-proportion="0.11950791" vertical-offset="0" max-vertical-offset="569">
+            <state line="5" column="25" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -164,7 +163,7 @@
       <file leaf-file-name="ScheduledDay.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/ScheduledDay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+            <state line="14" column="4" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
               <folding />
             </state>
           </provider>
@@ -802,7 +801,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/Dashboard.java" />
         <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/TakenMedicine.java" />
@@ -811,13 +809,14 @@
         <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/BaseActivity.java" />
         <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/Configure.java" />
         <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/res/layout/activity_new_medicine.xml" />
-        <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/contentproviders/DrugBaseProvider.java" />
         <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/contentproviders/DrugsDB.java" />
         <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/database/DrugsDB.java" />
         <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/ScheduleType.java" />
-        <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/database/MedicineReminderDB.java" />
-        <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/Drug.java" />
         <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/ScheduledDay.java" />
+        <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/Drug.java" />
+        <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/database/MedicineReminderDB.java" />
+        <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/contentproviders/DrugsContract.java" />
+        <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/contentproviders/DrugBaseProvider.java" />
       </list>
     </option>
   </component>
@@ -1387,7 +1386,11 @@
       <created>1379436376370</created>
       <updated>1379436376370</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Work around back end storage">
+      <created>1379436517117</created>
+      <updated>1379436517117</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1440,11 +1443,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyMedicineReminder/build/manifests/debug/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="5" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="561">
@@ -1518,15 +1516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/contentproviders/DrugBaseProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="5" selection-start="1870" selection-end="1870" vertical-scroll-proportion="0.0" vertical-offset="213" max-vertical-offset="1105">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/ScheduleType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="15" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
@@ -1536,23 +1525,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/ScheduledDay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+        <state line="14" column="4" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/Drug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="25" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/database/MedicineReminderDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="49" selection-start="759" selection-end="759" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="833">
+        <state line="22" column="34" selection-start="969" selection-end="969" vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="714">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/Drug.java">
+    <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/contentproviders/DrugsContract.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="18" selection-start="119" selection-end="119" vertical-scroll-proportion="0.11950791" vertical-offset="0" max-vertical-offset="569">
+        <state line="3" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/contentproviders/DrugBaseProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="67" selection-start="1968" selection-end="1968" vertical-scroll-proportion="0.2967626" vertical-offset="566" max-vertical-offset="2040">
           <folding />
         </state>
       </provider>
