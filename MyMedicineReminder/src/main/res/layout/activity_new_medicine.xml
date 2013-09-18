@@ -15,19 +15,92 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
+        android:id="@+id/nameRow"
         android:weightSum="4">
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Medium Text"
-            android:id="@+id/textView"
+            android:text="Name"
+            android:id="@+id/nameLabel"
             android:layout_weight="1" />
 
         <EditText
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:id="@+id/editText"
+            android:id="@+id/name"
             android:layout_weight="3" />
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameRow"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/descRow"
+        android:weightSum="4">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:id="@+id/descriptionLabel"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/description"
+            android:layout_weight="3" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descRow"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/schedTypeRow"
+        android:weightSum="4">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Schedule Type"
+            android:id="@+id/schedTypeLabel"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/schedType"
+            android:layout_weight="3"
+            android:entries="@array/schedTypes"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/schedTypeRow"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/schedDayRow"
+        android:weightSum="4">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Scheduled Days"
+            android:id="@+id/schedDayLabel"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/schedDays"
+            android:layout_weight="3"
+            android:entries="@array/schedDays"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Save"
+        android:onClick="onSave" />
 </RelativeLayout>

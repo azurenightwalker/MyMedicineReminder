@@ -5,7 +5,13 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.View;
 
+import com.mobilemedicsolutions.mymedicinereminder.data.Drug;
+import com.mobilemedicsolutions.mymedicinereminder.data.DrugHelper;
+import com.mobilemedicsolutions.mymedicinereminder.data.ScheduleType;
+import com.mobilemedicsolutions.mymedicinereminder.data.ScheduledDay;
 import com.mobilemedicsolutions.mymedicinereminder.data.contentproviders.PreferenceHelper;
+
+import java.util.HashSet;
 
 public class Dashboard extends Activity {
 

@@ -8,4 +8,19 @@
         <item>Simple</item>
         <item>Advanced</item>
     </string-array>
+    <string-array name="schedTypes">
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Set Days</item>
+        <item>Set Interval</item>
+    </string-array>
+    <string-array name="schedDays">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
 </resources>
