@@ -5,13 +5,7 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.View;
 
-import com.mobilemedicsolutions.mymedicinereminder.data.Drug;
-import com.mobilemedicsolutions.mymedicinereminder.data.DrugHelper;
-import com.mobilemedicsolutions.mymedicinereminder.data.ScheduleType;
-import com.mobilemedicsolutions.mymedicinereminder.data.ScheduledDay;
 import com.mobilemedicsolutions.mymedicinereminder.data.contentproviders.PreferenceHelper;
-
-import java.util.HashSet;
 
 public class Dashboard extends Activity {
 
@@ -65,14 +59,14 @@ public class Dashboard extends Activity {
     public void allMedicines(@SuppressWarnings("UnusedParameters") View v)
     {
         Intent intent = new Intent(Dashboard.this,MedicineList.class);
-        intent.putExtra("Filter",0);
+        intent.putExtra("Today",false);
         startActivity(intent);
     }
 
     public void todayMedicines(@SuppressWarnings("UnusedParameters") View v)
     {
         Intent intent = new Intent(Dashboard.this,MedicineList.class);
-        intent.putExtra("Filter",System.currentTimeMillis());
+        intent.putExtra("Today",true);
         startActivity(intent);
     }
 

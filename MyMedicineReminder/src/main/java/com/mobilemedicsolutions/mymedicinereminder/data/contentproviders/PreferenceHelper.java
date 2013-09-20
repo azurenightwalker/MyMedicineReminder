@@ -31,7 +31,7 @@ public class PreferenceHelper {
 
     public void setBoolean(String property, boolean value) {
         PreferenceManager.getDefaultSharedPreferences(mContext).edit()
-                .putBoolean(property, value).apply();
+                .putBoolean(property, value).commit();
     }
 
     public int getInt(String property) {
@@ -45,6 +45,6 @@ public class PreferenceHelper {
 
     public void setInt(String property, int value) {
         PreferenceManager.getDefaultSharedPreferences(mContext).edit()
-                .putInt(property, value).apply();
+                .putInt(property, value).commit();
     }
 }

@@ -32,7 +32,7 @@ android {
 
     buildTypes {
         debug {
-            packageNameSuffix ".debug"
+            //packageNameSuffix ".debug"
             versionNameSuffix ".01"
         }
 

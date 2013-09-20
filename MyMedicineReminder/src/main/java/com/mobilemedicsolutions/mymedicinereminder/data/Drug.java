@@ -44,7 +44,7 @@ public class Drug {
         this.description = description;
         this.scheduleType = scheduleType;
         this.scheduledDays = scheduledDays;
-    }
+    }/*
 
     public String getName()
     {
@@ -64,5 +64,5 @@ public class Drug {
     public HashSet<ScheduledDay> getScheduledDays()
     {
         return scheduledDays;
-    }
+    }*/
 }

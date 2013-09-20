@@ -1,6 +1,5 @@
 package com.mobilemedicsolutions.mymedicinereminder.data.database;
 
-
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
@@ -8,7 +7,6 @@ import android.database.sqlite.SQLiteOpenHelper;
 import com.mobilemedicsolutions.mymedicinereminder.data.contentproviders.DrugsContract;
 
 public class MedicineReminderDB extends SQLiteOpenHelper{
-    private static int DATABASE_VERSION = 1;
     public static final String TABLE_DRUGS = "drugsManager";
     private static final String DATABASE_NAME = "MyMedicineReminder";
 
@@ -21,7 +19,7 @@ public class MedicineReminderDB extends SQLiteOpenHelper{
             DrugsContract.SCHEDULED_DAYS + " int not null)";
 
     public MedicineReminderDB(Context context) {
-        super(context, DATABASE_NAME, null, DATABASE_VERSION);
+        super(context, DATABASE_NAME, null, 1);
     }
 
     @Override

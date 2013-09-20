@@ -2,7 +2,7 @@ package com.mobilemedicsolutions.mymedicinereminder.data;
 
 public enum ScheduleType {
 
-    Daily(1<<0),
+    Daily(1),
     Weekly(1<<1),
     SetDays(1<<2),
     SetInterval(1<<3);
@@ -17,7 +17,7 @@ public enum ScheduleType {
     {
         switch (val)
         {
-            case 1<<0:
+            case 1:
                 return  ScheduleType.Daily;
             case 1<<1:
                 return  ScheduleType.Weekly;

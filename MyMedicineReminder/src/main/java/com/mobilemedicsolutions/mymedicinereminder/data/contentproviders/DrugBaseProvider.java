@@ -18,7 +18,6 @@ public class DrugBaseProvider extends ContentProvider
 
     public static final String PROVIDER_NAME =
             "com.mobilemedicsolutions.mymedicinereminder";
-    public static final Uri CONTENT_URI = Uri.parse("content://" + PROVIDER_NAME);
     private static final UriMatcher uriMatcher = new UriMatcher(UriMatcher.NO_MATCH);
     static {
         uriMatcher.addURI(PROVIDER_NAME, "drugs", DRUG);
