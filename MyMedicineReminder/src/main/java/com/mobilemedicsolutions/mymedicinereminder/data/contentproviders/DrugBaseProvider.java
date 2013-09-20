@@ -16,7 +16,7 @@ public class DrugBaseProvider extends ContentProvider
     private static final int DRUG = 0;
     private static final int DRUG_ID = 1;
 
-    public static final String PROVIDER_NAME =
+    private static final String PROVIDER_NAME =
             "com.mobilemedicsolutions.mymedicinereminder";
     private static final UriMatcher uriMatcher = new UriMatcher(UriMatcher.NO_MATCH);
     static {

@@ -5,6 +5,7 @@ import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 import com.mobilemedicsolutions.mymedicinereminder.data.Drug;
 import com.mobilemedicsolutions.mymedicinereminder.data.DrugHelper;
@@ -23,8 +24,15 @@ public class NewMedicine extends BaseActivity {
 
     public void onSave(@SuppressWarnings("UnusedParameters") View v)
     {
-        String name = ((EditText)findViewById(R.id.name)).getText().toString();
-        String description = ((EditText)findViewById(R.id.description)).getText().toString();
+        String name = "";
+        String description = "";
+        EditText ev = (EditText)findViewById(R.id.name);
+        if (ev != null)
+            name = ev.getText().toString();
+        ev = (EditText)findViewById(R.id.description);
+        if (ev != null)
+            description = ev.getText().toString();
+
         ScheduleType scheduleType = ScheduleType.parse(
                 1<<((Spinner) findViewById(R.id.schedType)).getSelectedItemPosition());
         HashSet<ScheduledDay> scheduledDays = new HashSet<ScheduledDay>();

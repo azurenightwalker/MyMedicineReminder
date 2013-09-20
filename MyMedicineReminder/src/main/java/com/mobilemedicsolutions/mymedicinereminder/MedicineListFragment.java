@@ -13,7 +13,6 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ListView;
 
-import com.mobilemedicsolutions.mymedicinereminder.data.Drug;
 import com.mobilemedicsolutions.mymedicinereminder.data.DrugCursorAdapter;
 import com.mobilemedicsolutions.mymedicinereminder.data.DrugHelper;
 
@@ -59,7 +58,7 @@ public class MedicineListFragment extends ListFragment implements LoaderManager.
         openDrugDetails(id);
     }
 
-    public void openDrugDetails(long id)
+    void openDrugDetails(long id)
     {
         FragmentTransaction ft = getFragmentManager().beginTransaction();
         Fragment prev = getFragmentManager().findFragmentByTag("dialog");

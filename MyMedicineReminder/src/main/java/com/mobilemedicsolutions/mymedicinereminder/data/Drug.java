@@ -9,10 +9,10 @@ import java.util.HashSet;
 
 public class Drug {
     private long _id;
-    private String name;
-    private String description;
-    private ScheduleType scheduleType;
-    private HashSet<ScheduledDay> scheduledDays;
+    private final String name;
+    private final String description;
+    private final ScheduleType scheduleType;
+    private final HashSet<ScheduledDay> scheduledDays;
 
     public ContentValues asContentValues()
     {
