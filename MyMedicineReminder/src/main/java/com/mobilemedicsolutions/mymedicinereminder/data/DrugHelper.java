@@ -1,5 +1,6 @@
 package com.mobilemedicsolutions.mymedicinereminder.data;
 
+import android.content.ContentUris;
 import android.content.Context;
 import android.database.Cursor;
 import android.net.Uri;
@@ -50,5 +51,25 @@ public class DrugHelper {
     public static Uri InsertDrug(Context context, Drug drug)
     {
         return context.getContentResolver().insert(DrugsContract.CONTENT_URI,drug.asContentValues());
+    }
+
+    public static Drug GetDrug(Context context, long id)
+    {
+        return GetDrug(context, ContentUris.withAppendedId(DrugsContract.CONTENT_URI,id));
+    }
+
+    public static Drug GetDrug(Context context, Uri uri)
+    {
+        Drug drug = null;
+        Cursor cursor = context.getContentResolver().query(uri,null,null,null,null);
+        if (cursor != null)
+        {
+            if (cursor.moveToFirst())
+            {
+                drug = new Drug(cursor);
+            }
+            cursor.close();
+        }
+        return drug;
     }
 }

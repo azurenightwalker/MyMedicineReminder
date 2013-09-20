@@ -44,7 +44,7 @@ public class Drug {
         this.description = description;
         this.scheduleType = scheduleType;
         this.scheduledDays = scheduledDays;
-    }/*
+    }
 
     public String getName()
     {
@@ -56,13 +56,13 @@ public class Drug {
         return description;
     }
 
-    public ScheduleType getScheduleType()
+    /*public ScheduleType getScheduleType()
     {
         return scheduleType;
-    }
+    }*/
 
     public HashSet<ScheduledDay> getScheduledDays()
     {
         return scheduledDays;
-    }*/
+    }
 }

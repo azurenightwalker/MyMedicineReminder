@@ -2,6 +2,7 @@ package com.mobilemedicsolutions.mymedicinereminder;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Spinner;
 
@@ -26,8 +27,21 @@ public class NewMedicine extends BaseActivity {
         String description = ((EditText)findViewById(R.id.description)).getText().toString();
         ScheduleType scheduleType = ScheduleType.parse(
                 1<<((Spinner) findViewById(R.id.schedType)).getSelectedItemPosition());
-        HashSet<ScheduledDay> scheduledDays = ScheduledDay.parse(
-                1<<(((Spinner) findViewById(R.id.schedDays)).getSelectedItemPosition()+1));
+        HashSet<ScheduledDay> scheduledDays = new HashSet<ScheduledDay>();
+        if (((CheckBox)findViewById(R.id.schedMonday)).isChecked())
+            scheduledDays.add(ScheduledDay.Monday);
+        if (((CheckBox)findViewById(R.id.schedTuesday)).isChecked())
+            scheduledDays.add(ScheduledDay.Tuesday);
+        if (((CheckBox)findViewById(R.id.schedWednesday)).isChecked())
+            scheduledDays.add(ScheduledDay.Wednesday);
+        if (((CheckBox)findViewById(R.id.schedThursday)).isChecked())
+            scheduledDays.add(ScheduledDay.Thursday);
+        if (((CheckBox)findViewById(R.id.schedFriday)).isChecked())
+            scheduledDays.add(ScheduledDay.Friday);
+        if (((CheckBox)findViewById(R.id.schedSaturday)).isChecked())
+            scheduledDays.add(ScheduledDay.Saturday);
+        if (((CheckBox)findViewById(R.id.schedSunday)).isChecked())
+            scheduledDays.add(ScheduledDay.Sunday);
 
         DrugHelper.InsertDrug(NewMedicine.this, new Drug(name, description, scheduleType, scheduledDays));
         finish();

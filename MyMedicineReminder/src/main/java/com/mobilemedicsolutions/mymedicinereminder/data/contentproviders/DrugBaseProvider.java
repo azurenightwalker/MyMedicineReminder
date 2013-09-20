@@ -42,7 +42,8 @@ public class DrugBaseProvider extends ContentProvider
                 if (TextUtils.isEmpty(sortOrder)) sortOrder = "_ID ASC";
                 break;
             case DRUG_ID:
-                selection += DrugsContract._ID + " = " + uri.getLastPathSegment();
+                selection = (selection == null ? "" : (selection + " ")) +
+                        DrugsContract._ID + " = " + uri.getLastPathSegment();
                 break;
             default:
                 return null;

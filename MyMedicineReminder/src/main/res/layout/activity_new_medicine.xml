@@ -88,13 +88,48 @@
             android:text="Scheduled Days"
             android:id="@+id/schedDayLabel"
             android:layout_weight="1" />
-
-        <Spinner
-            android:layout_width="0dp"
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:id="@+id/schedDaylayout"
+        android:orientation="vertical">
+        <CheckBox
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/schedDays"
-            android:layout_weight="3"
-            android:entries="@array/schedDays"/>
+            android:id="@+id/schedMonday"
+            android:text="@string/monday"/>
+        <CheckBox
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/schedTuesday"
+            android:text="@string/tuesday"/>
+        <CheckBox
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/schedWednesday"
+            android:text="@string/wednesday"/>
+        <CheckBox
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/schedThursday"
+            android:text="@string/thursday"/>
+        <CheckBox
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/schedFriday"
+            android:text="@string/friday"/>
+        <CheckBox
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/schedSaturday"
+            android:text="@string/saturday"/>
+        <CheckBox
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/schedSunday"
+            android:text="@string/sunday"/>
+        </LinearLayout>
     </LinearLayout>
     <Button
         android:layout_width="wrap_content"

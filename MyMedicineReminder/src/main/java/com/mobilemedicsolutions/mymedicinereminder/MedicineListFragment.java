@@ -2,15 +2,20 @@ package com.mobilemedicsolutions.mymedicinereminder;
 
 import android.database.Cursor;
 import android.os.Bundle;
+import android.support.v4.app.DialogFragment;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.app.ListFragment;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.Loader;
 import android.support.v4.widget.CursorAdapter;
-import android.support.v4.widget.SimpleCursorAdapter;
 import android.util.Log;
+import android.view.View;
+import android.widget.ListView;
 
+import com.mobilemedicsolutions.mymedicinereminder.data.Drug;
+import com.mobilemedicsolutions.mymedicinereminder.data.DrugCursorAdapter;
 import com.mobilemedicsolutions.mymedicinereminder.data.DrugHelper;
-import com.mobilemedicsolutions.mymedicinereminder.data.contentproviders.DrugsContract;
 
 public class MedicineListFragment extends ListFragment implements LoaderManager.LoaderCallbacks<Cursor>{
 
@@ -19,10 +24,7 @@ public class MedicineListFragment extends ListFragment implements LoaderManager.
     @Override
     public  void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        String[] uiBindFrom = { DrugsContract.NAME };
-        int[] uiBindTo = {android.R.id.text1};
-        mAdapter = new SimpleCursorAdapter(getActivity(),android.R.layout.simple_list_item_1,
-                null, uiBindFrom, uiBindTo,0);
+        mAdapter = new DrugCursorAdapter(getActivity());
         setListAdapter(mAdapter);
         this.getLoaderManager().initLoader(1, null, this);
     }
@@ -49,5 +51,25 @@ public class MedicineListFragment extends ListFragment implements LoaderManager.
             mAdapter.swapCursor(null);
         else
             Log.v("MMR","OnLoadFinished: mAdapter is null");
+    }
+
+    @Override
+    public void onListItemClick(final ListView list, final View view, final int position, final long id) {
+        super.onListItemClick(list, view, position, id);
+        openDrugDetails(id);
+    }
+
+    public void openDrugDetails(long id)
+    {
+        FragmentTransaction ft = getFragmentManager().beginTransaction();
+        Fragment prev = getFragmentManager().findFragmentByTag("dialog");
+        if (prev != null) {
+            ft.remove(prev);
+        }
+        ft.addToBackStack(null);
+
+        // Create and show the dialog.
+        DialogFragment newFragment = DrugDetailsFragment.newInstance(id);
+        newFragment.show(ft, "dialog");
     }
 }
