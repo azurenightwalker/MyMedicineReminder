@@ -13,6 +13,8 @@ public class Drug {
     private final String description;
     private final ScheduleType scheduleType;
     private final HashSet<ScheduledDay> scheduledDays;
+    private final int alertHour;
+    private final int alertMinute;
 
     public ContentValues asContentValues()
     {
@@ -26,6 +28,8 @@ public class Drug {
             days |= sd.Value;
         }
         cv.put(DrugsContract.SCHEDULED_DAYS,days);
+        cv.put(DrugsContract.ALERT_HOUR,alertHour);
+        cv.put(DrugsContract.ALERT_MINUTE,alertMinute);
         return cv;
     }
 
@@ -36,14 +40,19 @@ public class Drug {
         description = cursor.getString(cursor.getColumnIndex(DrugsContract.DESCRIPTION));
         scheduleType = ScheduleType.parse(cursor.getInt(cursor.getColumnIndex(DrugsContract.SCHEDULE_TYPE)));
         scheduledDays = ScheduledDay.parse(cursor.getInt(cursor.getColumnIndex(DrugsContract.SCHEDULED_DAYS)));
+        alertHour = cursor.getInt(cursor.getColumnIndex(DrugsContract.ALERT_HOUR));
+        alertMinute = cursor.getInt(cursor.getColumnIndex(DrugsContract.ALERT_MINUTE));
     }
 
-    public Drug (String name, String description, ScheduleType scheduleType, HashSet<ScheduledDay> scheduledDays)
+    public Drug (String name, String description, ScheduleType scheduleType,
+                 HashSet<ScheduledDay> scheduledDays, int alertHour, int alertMinute)
     {
         this.name = name;
         this.description = description;
         this.scheduleType = scheduleType;
         this.scheduledDays = scheduledDays;
+        this.alertHour = alertHour;
+        this.alertMinute = alertMinute;
     }
 
     public String getName()

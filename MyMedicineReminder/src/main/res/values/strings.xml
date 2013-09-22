@@ -18,5 +18,8 @@
     <string name="thursday">Thursday</string>
     <string name="friday">Friday</string>
     <string name="saturday">Saturday</string>
+    <string name="notifyTime">%1$02d:%2$02d</string>
+    <string name="notifyTimeLabel">Notification Time</string>
+    <string name="editTime">Edit Time</string>
 
 </resources>

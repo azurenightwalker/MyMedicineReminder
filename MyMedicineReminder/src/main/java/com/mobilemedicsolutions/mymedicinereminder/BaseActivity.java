@@ -7,9 +7,13 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.NavUtils;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 
 public class BaseActivity extends FragmentActivity {
+
+    protected int alertHour;
+    protected int alertMinute;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,5 +41,13 @@ public class BaseActivity extends FragmentActivity {
                 return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public void setDate(int hour, int minute)
+    {
+        alertHour = hour;
+        alertMinute = minute;
+        ((TextView)findViewById(R.id.notifyTime)).setText(String.format(
+                getResources().getString(R.string.notifyTime),alertHour,alertMinute));
     }
 }

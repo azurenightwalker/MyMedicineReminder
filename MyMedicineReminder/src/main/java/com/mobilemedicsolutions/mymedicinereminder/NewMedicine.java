@@ -1,7 +1,11 @@
 package com.mobilemedicsolutions.mymedicinereminder;
 
 import android.os.Bundle;
+import android.support.v4.app.DialogFragment;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Spinner;
@@ -11,15 +15,21 @@ import com.mobilemedicsolutions.mymedicinereminder.data.Drug;
 import com.mobilemedicsolutions.mymedicinereminder.data.DrugHelper;
 import com.mobilemedicsolutions.mymedicinereminder.data.ScheduleType;
 import com.mobilemedicsolutions.mymedicinereminder.data.ScheduledDay;
+import com.mobilemedicsolutions.mymedicinereminder.data.contentproviders.PreferenceHelper;
 
 import java.util.HashSet;
 
-public class NewMedicine extends BaseActivity {
+public class NewMedicine extends BaseActivity implements AdapterView.OnItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new_medicine);
+        alertMinute = PreferenceHelper.getInstance().getInt("DefaultAlertMinute",0);
+        alertHour = PreferenceHelper.getInstance().getInt("DefaultAlertHour",12);
+        ((Spinner) findViewById(R.id.schedType)).setOnItemSelectedListener(this);
+        ((TextView)findViewById(R.id.notifyTime)).setText(String.format(
+                getResources().getString(R.string.notifyTime),alertHour,alertMinute));
     }
 
     public void onSave(@SuppressWarnings("UnusedParameters") View v)
@@ -51,7 +61,27 @@ public class NewMedicine extends BaseActivity {
         if (((CheckBox)findViewById(R.id.schedSunday)).isChecked())
             scheduledDays.add(ScheduledDay.Sunday);
 
-        DrugHelper.InsertDrug(NewMedicine.this, new Drug(name, description, scheduleType, scheduledDays));
+        DrugHelper.InsertDrug(NewMedicine.this, new Drug(name, description, scheduleType,
+                scheduledDays, alertHour, alertMinute));
         finish();
+    }
+
+    @Override
+    public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+        if (position == 2)
+            findViewById(R.id.schedDayRow).setVisibility(View.VISIBLE);
+        else
+            findViewById(R.id.schedDayRow).setVisibility(View.GONE);
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> adapterView) {
+
+    }
+
+    public void openDatePicker(View v)
+    {
+        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+        TimePickerFragment.newInstance(alertHour,alertMinute).show(ft, "dialog");
     }
 }

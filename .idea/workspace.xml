@@ -12,11 +12,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db9ea2b0-cd66-4772-8d5a-c6506488166e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/TimePickerFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/1.7/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/1.7/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/1.7/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/1.7/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/1.7/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/1.7/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/1.7/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/1.7/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/BaseActivity.java" afterPath="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/BaseActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/Configure.java" afterPath="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/Configure.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/Drug.java" afterPath="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/Drug.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/contentproviders/DrugBaseProvider.java" afterPath="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/contentproviders/DrugBaseProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/DrugDetailsFragment.java" afterPath="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/DrugDetailsFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/MedicineListFragment.java" afterPath="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/MedicineListFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/contentproviders/DrugsContract.java" afterPath="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/contentproviders/DrugsContract.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/database/MedicineReminderDB.java" afterPath="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/database/MedicineReminderDB.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/NewMedicine.java" afterPath="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/NewMedicine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyMedicineReminder/src/main/res/layout/activity_configure.xml" afterPath="$PROJECT_DIR$/MyMedicineReminder/src/main/res/layout/activity_configure.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyMedicineReminder/src/main/res/layout/activity_new_medicine.xml" afterPath="$PROJECT_DIR$/MyMedicineReminder/src/main/res/layout/activity_new_medicine.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyMedicineReminder/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/MyMedicineReminder/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyMedicineReminder.iws" />
@@ -37,24 +47,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/DrugHelper.java" line="43" class="com.mobilemedicsolutions.mymedicinereminder.data.DrugHelper" package="com.mobilemedicsolutions.mymedicinereminder.data">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -91,6 +83,39 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/DrugHelper.java" line="43" class="com.mobilemedicsolutions.mymedicinereminder.data.DrugHelper" package="com.mobilemedicsolutions.mymedicinereminder.data">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/NewMedicine.java" line="30" class="com.mobilemedicsolutions.mymedicinereminder.NewMedicine" package="com.mobilemedicsolutions.mymedicinereminder">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -100,37 +125,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Configure.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/Configure.java">
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="75" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+            <state line="22" column="32" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="527">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/BaseActivity.java">
+      <file leaf-file-name="TimePickerFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/TimePickerFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dashboard.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/Dashboard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1343">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MedicineListFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/MedicineListFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="9" selection-start="2138" selection-end="2138" vertical-scroll-proportion="0.0" vertical-offset="841" max-vertical-offset="1360">
+            <state line="41" column="22" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.0" vertical-offset="473" max-vertical-offset="850">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,63 +145,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DrugDetailsFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/DrugDetailsFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="46" selection-start="1343" selection-end="1483" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="765">
-              <folding />
-            </state>
+      <file leaf-file-name="activity_new_medicine.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/res/layout/activity_new_medicine.xml">
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Drug.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/Drug.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="25" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="1258">
+            <state line="80" column="12" selection-start="2865" selection-end="2865" vertical-scroll-proportion="0.41975307" vertical-offset="1224" max-vertical-offset="2992">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2323#2348#0" expanded="true" />
+                <element signature="e#2834#2852#0" expanded="true" />
+                <element signature="e#4601#4617#0" expanded="true" />
+                <element signature="e#4802#4819#0" expanded="true" />
+                <element signature="e#5006#5025#0" expanded="true" />
+                <element signature="e#5211#5229#0" expanded="true" />
+                <element signature="e#5413#5429#0" expanded="true" />
+                <element signature="e#5615#5633#0" expanded="true" />
+                <element signature="e#5817#5833#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewMedicine.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/NewMedicine.java">
+      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="5" selection-start="2355" selection-end="2355" vertical-scroll-proportion="0.0" vertical-offset="348" max-vertical-offset="867">
-              <folding>
-                <element signature="e#782#819#1" expanded="true" />
-                <element signature="e#1350#1364#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gradle-wrapper.properties" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="95" selection-end="95" vertical-scroll-proportion="0.08900524" vertical-offset="0" max-vertical-offset="573">
+            <state line="6" column="41" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DrugBaseProvider.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/contentproviders/DrugBaseProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="32" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2040">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DrugHelper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/DrugHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="4" selection-start="1635" selection-end="1635" vertical-scroll-proportion="0.0" vertical-offset="677" max-vertical-offset="1377">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -822,30 +799,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/database/MedicineReminderDB.java" />
-        <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/ScheduleType.java" />
-        <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/Configure.java" />
-        <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/res/values/dimens.xml" />
-        <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/res/layout/drug_list_item.xml" />
-        <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/DrugCursorAdapter.java" />
-        <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/DrugHelper.java" />
         <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/res/layout/drug_details.xml" />
-        <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/res/layout/activity_new_medicine.xml" />
         <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/Dashboard.java" />
-        <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/BaseActivity.java" />
         <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/contentproviders/DrugBaseProvider.java" />
         <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/MedicineListFragment.java" />
-        <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/Drug.java" />
         <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/DrugDetailsFragment.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/contentproviders/DrugsContract.java" />
+        <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/Drug.java" />
+        <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/database/MedicineReminderDB.java" />
+        <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/TimePickerFragment.java" />
         <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/NewMedicine.java" />
+        <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/BaseActivity.java" />
+        <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/Configure.java" />
+        <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/res/layout/activity_configure.xml" />
+        <option value="$PROJECT_DIR$/MyMedicineReminder/src/main/res/layout/activity_new_medicine.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1272" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="1040" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -892,8 +869,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -908,6 +883,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="MyMedicineReminderProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyMedicineReminder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyMedicineReminderProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="MyMedicineReminder" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -918,21 +907,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyMedicineReminder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyMedicineReminder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyMedicineReminder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyMedicineReminder" />
+              <option name="myItemId" value="MyMedicineReminderProject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -954,7 +929,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyMedicineReminder" />
+              <option name="myItemId" value="MyMedicineReminderProject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -980,7 +955,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyMedicineReminder" />
+              <option name="myItemId" value="MyMedicineReminderProject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1010,7 +985,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyMedicineReminder" />
+              <option name="myItemId" value="MyMedicineReminderProject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1040,7 +1015,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyMedicineReminder" />
+              <option name="myItemId" value="MyMedicineReminderProject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1070,7 +1045,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyMedicineReminder" />
+              <option name="myItemId" value="MyMedicineReminderProject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1104,7 +1079,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyMedicineReminder" />
+              <option name="myItemId" value="MyMedicineReminderProject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1136,46 +1111,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyMedicineReminder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyMedicineReminder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyMedicineReminder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mymedicinereminder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contentproviders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1190,16 +1129,16 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/MyMedicineReminder" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="FA34CW901223" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.0.100:5555" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -1241,6 +1180,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -1266,19 +1218,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1380,6 +1319,11 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -1447,35 +1391,35 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1272" y="-8" width="1296" height="1040" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34030837" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33901194" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890624" sideWeight="0.6861234" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287879" sideWeight="0.6609881" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39867842" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39863715" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.343318" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270925" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31387666" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270869" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31345826" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3390625" sideWeight="0.65969163" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39977974" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32378855" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33863637" sideWeight="0.6609881" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32367972" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39977974" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1500,46 +1444,129 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/TakenMedicine.java">
+    <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/Drug.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="123" selection-end="123" vertical-scroll-proportion="0.11663808" vertical-offset="0" max-vertical-offset="583">
+        <state line="69" column="13" selection-start="2372" selection-end="2372" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1326">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/res/values/dimens.xml">
+    <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/DrugHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="43" selection-start="241" selection-end="241" vertical-scroll-proportion="0.11604095" vertical-offset="0" max-vertical-offset="586">
+        <state line="50" column="4" selection-start="1635" selection-end="1635" vertical-scroll-proportion="0.0" vertical-offset="677" max-vertical-offset="1377">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/DrugCursorAdapter.java">
+    <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/database/MedicineReminderDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="82" selection-start="1242" selection-end="1392" vertical-scroll-proportion="0.0" vertical-offset="389" max-vertical-offset="986">
+        <state line="18" column="40" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/extras/android/m2repository/com/android/support/support-v4/13.0.0/support-v4-13.0.0.jar!/android/support/v4/app/Fragment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="0" selection-start="3830" selection-end="3831" vertical-scroll-proportion="4.9144545" vertical-offset="0" max-vertical-offset="4505">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/MedicineListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="39" selection-start="2208" selection-end="2208" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="1360">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/res/layout/drug_details.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/MedicineList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="44" selection-start="710" selection-end="710" vertical-scroll-proportion="-10.88" vertical-offset="0" max-vertical-offset="391">
+        <state line="4" column="13" selection-start="94" selection-end="94" vertical-scroll-proportion="0.18037136" vertical-offset="0" max-vertical-offset="377">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/res/layout/drug_list_item.xml">
+    <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/DrugDetailsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="41" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.8116711" vertical-offset="51" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/android-sdk/sources/android-18/com/android/server/am/BroadcastQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="381" column="0" selection-start="14177" selection-end="14177" vertical-scroll-proportion="0.0" vertical-offset="5625" max-vertical-offset="18496">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/android-sdk/sources/android-18/com/android/internal/os/ZygoteInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="554" column="0" selection-start="19331" selection-end="19331" vertical-scroll-proportion="0.0" vertical-offset="8600" max-vertical-offset="12172">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/Configure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="4" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.45888594" vertical-offset="354" max-vertical-offset="748">
+          <folding>
+            <element signature="e#1094#1139#0" expanded="true" />
+            <element signature="e#1204#1241#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="420" selection-end="420" vertical-scroll-proportion="0.36074272" vertical-offset="0" max-vertical-offset="884">
+          <folding>
+            <element signature="e#1461#1506#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/NewMedicine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="93" selection-start="888" selection-end="888" vertical-scroll-proportion="0.6392573" vertical-offset="116" max-vertical-offset="1581">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1500#1537#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="32" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/res/layout/activity_configure.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="55" selection-start="1002" selection-end="1002" vertical-scroll-proportion="-15.64" vertical-offset="0" max-vertical-offset="527">
-          <folding />
+        <state line="70" column="12" selection-start="2701" selection-end="2732" vertical-scroll-proportion="0.899705" vertical-offset="885" max-vertical-offset="1530">
+          <folding>
+            <element signature="e#1371#1396#0" expanded="true" />
+            <element signature="e#1699#1707#0" expanded="true" />
+            <element signature="e#2203#2228#0" expanded="true" />
+            <element signature="e#2714#2732#0" expanded="true" />
+            <element signature="e#2917#2940#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/TimePickerFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="22" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.0" vertical-offset="473" max-vertical-offset="850">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1548,95 +1575,18 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="34" selection-start="4559" selection-end="4559" vertical-scroll-proportion="-12.16" vertical-offset="1804" max-vertical-offset="2499">
+        <state line="80" column="12" selection-start="2865" selection-end="2865" vertical-scroll-proportion="0.41975307" vertical-offset="1224" max-vertical-offset="2992">
           <folding>
-            <element signature="e#3580#3596#0" expanded="true" />
-            <element signature="e#3781#3798#0" expanded="true" />
-            <element signature="e#3985#4004#0" expanded="true" />
-            <element signature="e#4190#4208#0" expanded="true" />
-            <element signature="e#4392#4408#0" expanded="true" />
-            <element signature="e#4594#4612#0" expanded="true" />
-            <element signature="e#4796#4812#0" expanded="true" />
+            <element signature="e#2323#2348#0" expanded="true" />
+            <element signature="e#2834#2852#0" expanded="true" />
+            <element signature="e#4601#4617#0" expanded="true" />
+            <element signature="e#4802#4819#0" expanded="true" />
+            <element signature="e#5006#5025#0" expanded="true" />
+            <element signature="e#5211#5229#0" expanded="true" />
+            <element signature="e#5413#5429#0" expanded="true" />
+            <element signature="e#5615#5633#0" expanded="true" />
+            <element signature="e#5817#5833#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/Dashboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1343">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/BaseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/contentproviders/DrugBaseProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="32" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2040">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/MedicineListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="9" selection-start="2138" selection-end="2138" vertical-scroll-proportion="0.0" vertical-offset="841" max-vertical-offset="1360">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/Drug.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="25" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="1258">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/Configure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="75" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/data/DrugHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="4" selection-start="1635" selection-end="1635" vertical-scroll-proportion="0.0" vertical-offset="677" max-vertical-offset="1377">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/DrugDetailsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="46" selection-start="1343" selection-end="1483" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyMedicineReminder/src/main/java/com/mobilemedicsolutions/mymedicinereminder/NewMedicine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="5" selection-start="2355" selection-end="2355" vertical-scroll-proportion="0.0" vertical-offset="348" max-vertical-offset="867">
-          <folding>
-            <element signature="e#782#819#1" expanded="true" />
-            <element signature="e#1350#1364#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="95" selection-end="95" vertical-scroll-proportion="0.08900524" vertical-offset="0" max-vertical-offset="573">
-          <folding />
         </state>
       </provider>
     </entry>
