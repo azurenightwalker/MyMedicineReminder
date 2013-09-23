@@ -11,6 +11,7 @@ import com.mobilemedicsolutions.mymedicinereminder.data.contentproviders.DrugsCo
 
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 
 public class DrugHelper {
@@ -71,5 +72,16 @@ public class DrugHelper {
             cursor.close();
         }
         return drug;
+    }
+
+    public static Date getNextNotify(Context context)
+    {
+        Date date = new Date(2060,1,1);
+        for (Drug drug : GetAllDrugs(context))
+        {
+            Date dDay = drug.getNextAlertTime();
+            date = date.before(dDay) ? date : dDay;
+        }
+        return date;
     }
 }

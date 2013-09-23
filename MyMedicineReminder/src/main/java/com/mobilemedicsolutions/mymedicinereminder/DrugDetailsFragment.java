@@ -12,6 +12,8 @@ import com.mobilemedicsolutions.mymedicinereminder.data.Drug;
 import com.mobilemedicsolutions.mymedicinereminder.data.DrugHelper;
 import com.mobilemedicsolutions.mymedicinereminder.data.ScheduledDay;
 
+import java.text.SimpleDateFormat;
+
 public class DrugDetailsFragment extends DialogFragment {
 
     private Drug drug;
@@ -40,6 +42,10 @@ public class DrugDetailsFragment extends DialogFragment {
         final TextView tv = (TextView) v.findViewById(R.id.drug_description);
         if (tv != null)
             tv.setText(drug.getDescription());
+        final TextView tn = (TextView) v.findViewById(R.id.drug_takeNext);
+        SimpleDateFormat sdf = new SimpleDateFormat("dd-MMM-yyyy");
+        if (tn != null)
+            tn.setText(sdf.format(drug.getNextAlertTime()));
         for(ScheduledDay day : drug.getScheduledDays())
         {
             Toast.makeText(getActivity(),day.toString(), Toast.LENGTH_SHORT).show();

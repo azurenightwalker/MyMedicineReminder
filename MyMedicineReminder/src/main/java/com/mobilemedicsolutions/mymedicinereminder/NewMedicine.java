@@ -36,12 +36,16 @@ public class NewMedicine extends BaseActivity implements AdapterView.OnItemSelec
     {
         String name = "";
         String description = "";
+        int interval = 0;
         EditText ev = (EditText)findViewById(R.id.name);
         if (ev != null)
             name = ev.getText().toString();
         ev = (EditText)findViewById(R.id.description);
         if (ev != null)
             description = ev.getText().toString();
+        ev = (EditText)findViewById(R.id.dayInt);
+        if (ev != null)
+            interval = Integer.parseInt(ev.getText().toString());
 
         ScheduleType scheduleType = ScheduleType.parse(
                 1<<((Spinner) findViewById(R.id.schedType)).getSelectedItemPosition());
@@ -62,16 +66,18 @@ public class NewMedicine extends BaseActivity implements AdapterView.OnItemSelec
             scheduledDays.add(ScheduledDay.Sunday);
 
         DrugHelper.InsertDrug(NewMedicine.this, new Drug(name, description, scheduleType,
-                scheduledDays, alertHour, alertMinute));
+                scheduledDays, alertHour, alertMinute,interval));
         finish();
     }
 
     @Override
     public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+        findViewById(R.id.schedDayRow).setVisibility(View.GONE);
+        findViewById(R.id.dayIntRow).setVisibility(View.GONE);
         if (position == 2)
             findViewById(R.id.schedDayRow).setVisibility(View.VISIBLE);
-        else
-            findViewById(R.id.schedDayRow).setVisibility(View.GONE);
+        else if (position == 3)
+            findViewById(R.id.dayIntRow).setVisibility(View.VISIBLE);
     }
 
     @Override

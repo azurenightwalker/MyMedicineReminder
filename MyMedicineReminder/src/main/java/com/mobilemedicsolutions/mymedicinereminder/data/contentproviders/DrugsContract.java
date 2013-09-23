@@ -10,6 +10,8 @@ public final class DrugsContract {
     public static final String SCHEDULED_DAYS = "days";
     public static final String ALERT_HOUR = "hour";
     public static final String ALERT_MINUTE = "minute";
+    public static final String LAST_ALERT = "lastAlert";
+    public static final String DAY_INTERVAL = "dayInterval";
 
     public static final Uri CONTENT_URI =
             Uri.parse("content://com.mobilemedicsolutions.mymedicinereminder/drugs");
@@ -21,6 +23,8 @@ public final class DrugsContract {
         DrugsContract.SCHEDULE_TYPE,
         DrugsContract.SCHEDULED_DAYS,
         DrugsContract.ALERT_HOUR,
-        DrugsContract.ALERT_MINUTE
+        DrugsContract.ALERT_MINUTE,
+        DrugsContract.LAST_ALERT,
+        DrugsContract.DAY_INTERVAL
     };
 }

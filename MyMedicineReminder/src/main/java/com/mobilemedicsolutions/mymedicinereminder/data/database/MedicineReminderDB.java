@@ -16,9 +16,11 @@ public class MedicineReminderDB extends SQLiteOpenHelper{
             DrugsContract.NAME + " text not null, " +
             DrugsContract.DESCRIPTION + " text not null, " +
             DrugsContract.SCHEDULE_TYPE + " int not null, " +
-            DrugsContract.SCHEDULED_DAYS + " int not null, " +
+            DrugsContract.SCHEDULED_DAYS + " int null, " +
             DrugsContract.ALERT_HOUR + " int not null, " +
-            DrugsContract.ALERT_MINUTE + " int not null)";
+            DrugsContract.ALERT_MINUTE + " int not null, " +
+            DrugsContract.LAST_ALERT + " int not null, " +
+            DrugsContract.DAY_INTERVAL + " int null)";
 
     public MedicineReminderDB(Context context) {
         super(context, DATABASE_NAME, null, 1);
